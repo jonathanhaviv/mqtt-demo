@@ -1,0 +1,17 @@
+{
+  "name": "mqtt-demo",
+  "version": "1.0.0",
+  "description": "Demo MQTT Server and Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-full-demo": "node ./src/v3/fullDemo.js",
+    "start": "node ./src/v5/fullDemo.js"
+  },
+  "author": "Jonathan Haviv",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.50.0",
+    "mqtt": "^4.3.7"
+  }
+}
